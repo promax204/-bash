@@ -1,0 +1,5 @@
+case $1 in 
+    laravel | artisan) $(echo 'php artisan serve');;
+    ng) $(echo 'ng serve');;
+    *) echo 'Invalid Syntax '
+esac
